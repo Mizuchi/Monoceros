@@ -8,7 +8,7 @@ USAGE: sbl::chain
 =====================
 
 sbl::chain is a policy-based std::vector like data structure which is built on the top of monoceros. 
-It is designed for efficient operation that involve a sequence elements as whole. 
+It is designed for efficient operation that involves a sequence elements as whole.
 Operations such as insert, erase and get the max element in the sub-array from i-th to j-th element
 take time that is logarithmic time of the length of the container's size.
 
