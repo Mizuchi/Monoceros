@@ -16,7 +16,7 @@ Here is a list of all operations and the equivalent of std::vector
 
 
 +-------------+---------------------+-----------------+---------------------------------------------+-----------------+
-| operation   | sbl::chain a;       | time complexity | std::vector a;                              | time complexity |
+| operation   | sbl::chain<T> a;    | time complexity | std::vector<T> a;                           | time complexity |
 +=============+=====================+=================+=============================================+=================+
 | insert      | a.insert(i, j)      | O(logN)         | a.insert(begin(a) + i, j)                   | O(N)            |
 +-------------+---------------------+                 +---------------------------------------------+                 +
